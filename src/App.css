@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+.App {
+  background-color: black;
+  font-size: 10px;
+}
+.loading {
+  background-color: black;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

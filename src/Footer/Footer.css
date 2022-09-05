@@ -1,0 +1,57 @@
+.footer ul {
+  padding: 50px;
+  margin-top: 35px;
+}
+
+.footer ul li {
+  list-style: none;
+  opacity: 0.5;
+}
+
+.footer ul a,
+.footer h1 a {
+  text-decoration: none;
+  color: rgb(193, 189, 189);
+  font-size: 12px;
+  line-height: 25px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(193, 189, 189);
+  font-size: 12px;
+}
+
+.footer h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  opacity: 0.5;
+  /* padding-right: 50px; */
+}
+
+.footer h1:hover {
+  opacity: 1;
+}
+
+@media (min-width: 758px) {
+  .footer__links {
+    display: flex;
+    /* justify-content: ; */
+    flex-wrap: wrap;
+    margin-left: 145px;
+  }
+}
+.service-code {
+  padding-top: 20px;
+}
+.net {
+  margin-left: 180px;
+}
+.myName {
+  font-size: 13px;
+}
+.myName a {
+  font-size: 14px;
+  text-align: end;
+}
